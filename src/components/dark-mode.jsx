@@ -3,12 +3,12 @@ import React from 'react';
 export default function DarkMode({ darkMode, setDarkMode }) {
   return (
     <div className="flex justify-between w-full max-w-4xl">
-      <h1 className="text-4xl font-bold font-serif mb-2 pt-4">
+      <h1 className="text-3xl md:text-2xl lg:text-3xl lg:top-9 md:relative md:top-8 md:px-11 font-bold font-serif mb-2 pt-4">
         The creative crew
       </h1>
       <button
         onClick={() => setDarkMode(!darkMode)}
-        className="cursor-pointer ml-2 mb-7"
+        className="cursor-pointer ml-2 mb-7 lg:relative lg:right-5"
       >
         {darkMode ? (
           <svg

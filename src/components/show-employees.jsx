@@ -4,7 +4,7 @@ import Employees from './employees';
 export default function ShowEmployees() {
   return (
     <>
-      <main className="grid grid-cols-2 gap-10 max-w-6xl mx-auto p-4">
+      <main className="grid grid-cols-2 md:grid-cols-3 gap-10 max-w-6xl mx-auto p-4 lg:gap-12">
         <div className="row-span-3 flex items-center justify-center">
           <Employees
             photo="../public/images/photo1.png"
