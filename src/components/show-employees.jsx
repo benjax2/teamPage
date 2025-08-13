@@ -7,7 +7,7 @@ export default function ShowEmployees() {
       <main className="grid grid-cols-2 md:grid-cols-3 gap-10 max-w-6xl mx-auto p-4 lg:gap-12">
         <div className="row-span-3 flex items-center justify-center">
           <Employees
-            photo="../public/images/photo1.png"
+            photo="./images/photo1.png"
             name="Bill Mahoney"
             role="PRODUCT OWNER"
           />
@@ -15,35 +15,35 @@ export default function ShowEmployees() {
         <div></div>
         <div className="row-span-3 flex items-center justify-center">
           <Employees
-            photo="../public/images/photo2.png"
+            photo="./images/photo2.png"
             name="Saba Cabrera"
             role="ART DIRECTOR"
           />
         </div>
         <div className="row-span-3 flex items-center justify-center">
           <Employees
-            photo="../public/images/photo3.png"
+            photo="./images/photo3.png"
             name="Shae Le"
             role="TECH LEAD"
           />
         </div>
         <div className="row-span-3 flex items-center justify-center">
           <Employees
-            photo="../public/images/photo4.png"
+            photo="./images/photo4.png"
             name="Skylah Lu"
             role="UX DESIGNER"
           />
         </div>
         <div className="row-span-3 flex items-center justify-center">
           <Employees
-            photo="../public/images/photo5.png"
+            photo="./images/photo5.png"
             name="Griff Richards"
             role="DEVELOPER"
           />
         </div>
         <div className="row-span-3 flex items-center justify-center">
           <Employees
-            photo="../public/images/photo6.png"
+            photo="./images/photo6.png"
             name="Stan John"
             role="DEVELOPER"
           />
